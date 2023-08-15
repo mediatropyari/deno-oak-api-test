@@ -12,9 +12,9 @@ This starts the server at http://localhost:8000/
 
 Try go to http://localhost:8000/api/Brachiosaurus or http://localhost:8000/api/
 
-
 Commands
+
 ```
 deno run --allow-all --watch main.ts
-deno compile --allow-all main.ts
+deno compile --allow-all --unstable main.ts
 ```
